@@ -1,0 +1,118 @@
+---------------------------------------------------------------------------
+        UniProt Knowledgebase:
+          Swiss-Prot Protein Knowledgebase
+          TrEMBL Protein Database
+        SIB Swiss Institute of Bioinformatics; Geneva, Switzerland
+        European Bioinformatics Institute (EBI); Hinxton, United Kingdom
+        Protein Information Resource (PIR); Washington DC, USA
+---------------------------------------------------------------------------
+
+Description: Controlled vocabulary of keywords
+Name:        keywlist.txt
+Release:     2021_03 of 02-Jun-2021
+
+---------------------------------------------------------------------------
+
+  This document lists the keywords and categories used in the UniProt
+  knowledgebase (Swiss-Prot and TrEMBL). The keywords are classified into
+  the following 10 categories:
+
+    * Biological process
+    * Cellular component
+    * Coding sequence diversity
+    * Developmental stage
+    * Disease
+    * Domain
+    * Ligand
+    * Molecular function
+    * PTM
+    * Technical term
+
+  The definition of the keywords and categories usage as well as other
+  information is provided in the following format:
+
+  ---------  ---------------------------     ------------------------------
+  Line code  Content                         Occurrence in an entry
+  ---------  ---------------------------     ------------------------------
+  ID         Identifier (keyword)            Once; starts a keyword entry
+  IC         Identifier (category)           Once; starts a category entry
+  AC         Accession (KW-xxxx)             Once
+  DE         Definition                      Once or more
+  SY         Synonyms                        Optional; once or more
+  GO         Gene ontology (GO) mapping      Optional; once or more
+  HI         Hierarchy                       Optional; once or more
+  WW         Relevant WWW site               Optional; once or more
+  CA         Category                        Once per keyword entry;
+                                             absent in category entries
+  //         Terminator                      Once; ends an entry
+
+___________________________________________________________________________
+ID   2Fe-2S.
+AC   KW-0001
+DE   Protein which contains at least one 2Fe-2S iron-sulfur cluster: 2 iron
+DE   atoms complexed to 2 inorganic sulfides and 4 sulfur atoms of
+DE   cysteines from the protein.
+SY   [2Fe-2S] cluster; [Fe2S2] cluster; 2 iron, 2 sulfur cluster binding;
+SY   Di-mu-sulfido-diiron; Fe2/S2 (inorganic) cluster; Fe2S2.
+GO   GO:0051537; 2 iron, 2 sulfur cluster binding
+HI   Ligand: Iron; Iron-sulfur; 2Fe-2S.
+HI   Ligand: Metal-binding; Iron-sulfur; 2Fe-2S.
+HI   Ligand: Metal-binding; 2Fe-2S.
+CA   Ligand.
+//
+ID   3D-structure.
+AC   KW-0002
+DE   Protein, or part of a protein, whose three-dimensional structure has
+DE   been resolved experimentally (for example by X-ray crystallography or
+DE   NMR spectroscopy) and whose coordinates are available in the PDB
+DE   database. Can also be used for theoretical models.
+HI   Technical term: 3D-structure.
+CA   Technical term.
+//
+ID   3Fe-4S.
+AC   KW-0003
+DE   Protein which contains at least one 3Fe-4S iron-sulfur cluster: 3 iron
+DE   atoms complexed to 4 inorganic sulfides and 3 sulfur atoms of
+DE   cysteines from the protein. In a number of iron-sulfur proteins, the
+DE   4Fe-4S cluster can be reversibly converted by oxidation and loss of
+DE   one iron ion to a 3Fe-4S cluster.
+GO   GO:0051538; 3 iron, 4 sulfur cluster binding
+HI   Ligand: Iron; Iron-sulfur; 3Fe-4S.
+HI   Ligand: Metal-binding; Iron-sulfur; 3Fe-4S.
+HI   Ligand: Metal-binding; 3Fe-4S.
+CA   Ligand.
+//
+ID   4Fe-4S.
+AC   KW-0004
+DE   Protein which contains at least one 4Fe-4S iron-sulfur cluster: 4 iron
+DE   atoms complexed to 4 inorganic sulfides and 4 sulfur atoms of
+DE   cysteines from the protein. In a number of iron-sulfur proteins, the
+DE   4Fe-4S cluster can be reversibly converted by oxidation and loss of
+DE   one iron ion to a 3Fe-4S cluster.
+GO   GO:0051539; 4 iron, 4 sulfur cluster binding
+HI   Ligand: Iron; Iron-sulfur; 4Fe-4S.
+HI   Ligand: Metal-binding; Iron-sulfur; 4Fe-4S.
+HI   Ligand: Metal-binding; 4Fe-4S.
+CA   Ligand.
+//
+ID   Abscisic acid biosynthesis.
+AC   KW-0937
+DE   Protein involved in the synthesis of abscisic acid (ABA) (5-(1-
+DE   hydroxy-2,6,6,trimethyl-4-oxocyclohex-2-en-1-y1)-3-methylpenta-2,4-
+DE   dienoic acid). ABA is a plant hormone which play a role in many
+DE   aspects of plant growth, development and cellular signaling (e.g. seed
+DE   dormancy, seed maturation, vegetative growth and responses to various
+DE   environmental stimuli such as stomatal closure during drought). This
+DE   phytohormone can be synthesized from farnesyl diphosphate (direct C15
+DE   pathway) or from 9-cis-violaxanthine (indirect C40 pathway).
+SY   ABA anabolism; ABA biosynthesis; ABA formation; ABA synthesis;
+SY   Abscisic acid anabolism; Abscisic acid biosynthetic process;
+SY   Abscisic acid formation; Abscisic acid synthesis.
+GO   GO:0009688; abscisic acid biosynthetic process
+HI   Biological process: Abscisic acid biosynthesis.
+CA   Biological process.
+//
+-----------------------------------------------------------------------
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+-----------------------------------------------------------------------
